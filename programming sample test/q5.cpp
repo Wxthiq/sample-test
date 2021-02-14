@@ -45,7 +45,36 @@ using namespace std;
 
 int main()
 {
-    //Write your code below
+    int num1,num2,num3,num4;
+    cout<<"Input four integers between 0 and 20 => ";
+    cin>> num1>>num2>>num3>>num4;
+
+    cout<<endl;
+
+    cout<<"mark 1: ";
+    for (int i = 0;i<num1;i++)
+         cout<<"*";
+
+    cout<<endl;
+
+    cout<<"mark 2: ";
+    for (int i = 0;i<num2;i++)
+        cout<<"*";
+
+        
+    cout<<endl;
+
+    cout<<"mark 3: ";
+    for (int i = 0;i<num3;i++)
+        cout<<"*";
+
+    cout<<endl;
+
+    cout<<"mark 4: ";
+    for (int i = 0;i<num4;i++)
+        cout<<"*";
+
+    cout<<endl;
 
 
 
