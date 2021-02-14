@@ -73,7 +73,18 @@ using namespace std;
 
 int main( )
 {
-    // Write your code below
+    int num;
+    long double tens = 1;
+    cout<<"Enter number of digits => ";
+    cin>> num;
+
+    cout<<endl;
+    for (int i =1;i<=num;i++)
+    {
+        cout<<setprecision(num);
+        cout<<setw(num)<<tens<<". Item "<<i<<endl;
+        tens=tens*10;
+    }
 
 
     return 0;
