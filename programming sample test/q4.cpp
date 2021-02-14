@@ -61,7 +61,20 @@ int main()
     cin >> hrs;
     cout << hrs << endl;
     
-	//  Write your program here
+	int charge = 0;
+	if (hrs<=3)
+	{
+		charge=2;
+	}
+	else if (hrs <=5)
+	{
+		charge=5;
+	}
+	else
+	{
+		hrs=hrs-5;
+		charge = 5+ (2*hrs);
+	}
 
 
 
