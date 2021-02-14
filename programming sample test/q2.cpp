@@ -59,7 +59,7 @@ int main()
     //          write your implementation below       //
     ////////////////////////////////////////////////////
 
-
+    y = (pow(x,3)-3*x+5)/(sqrt(pow(x-2,3)));
 
     ////////////////////////////////////////////////////
     //   you are not allowed to change below this line
