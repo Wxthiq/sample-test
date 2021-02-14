@@ -49,18 +49,32 @@ int main()
     cout << a << " " << b << " " << c << " " << d << endl;
 
 
-    if (a <= b)
+    if (a>b)
+    {
+        max = a;
+        min = b;
+    }
+        
+    else
+    {
         min = a;
         max = b;
+    }
 
-    if (a > b)
-        min = b;
-        max = a;
+    if (c>max)
+        max =c;
+    
+    if (d> max)
+        max =d;
 
-    if (min > c) min = c;
-    if (max < c) max = c;
-    if (min > d) min = d;
-    if (max < d) max = d;
+    if (c<min)
+        min=c;
+    
+    if (d<min)
+        min=d;
+
+        
+    
 
     // never modify the following lines
     cout << "min = " << min << " and "
