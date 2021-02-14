@@ -33,11 +33,12 @@ Factorial = 3628800
 
 
 #include <iostream>
-using namespace std
+using namespace std;
 
-long Factorial(long t;){
+long double factorial(long t)
+{
     long f=1;
-    for (i=1; i<=t; i++)
+    for (int i=1; i<=t; i++)
         f = f * i;
     return f;
 }
