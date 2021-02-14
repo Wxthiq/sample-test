@@ -33,10 +33,30 @@ using namespace std;
 
 int main() 
 {
-    //
-    //  Write your program here
-    //
+   
+   long double A;
+   cout<<"Enter an integer: ";
+   cin>>A;
+
+   while (A>100)
+       A=A-10;
+
+    if (A<80)
+   {
+        A=A+5;
+        while (A<100)
+            A=A+5;
     
+   }
+    else
+    {
+        A=A-5;
+        if (A>50)
+            A=A/10; ///// may need to make it 10
+
+    }
+    
+    A=A*A; /// may need to make it float
 
 
     // 
